@@ -13,6 +13,9 @@ Trigger the GlyphsApp Documentation with `gd` followed by a space. It will fetch
 - Python 3
 - Connection to the internet
 
+# Install
+
+Download the latest release "GlyphsApp.Documentation.alfredworkflow" from [here](https://github.com/hyper-type/alfred-glyphs-docu/releases/) and double click to install in Alfred.
 
 # Adjustments
 
@@ -20,5 +23,5 @@ If you don’t use `zsh`, change the "Language" in the Script Filter to `bin/bas
 
 # Improvements, Bugs, Features
 
-Report them to @Mark2Mark or @hyper-type at GitHub:
+Report them to [@Mark2Mark](https://github.com/Mark2Mark) or [@hyper-type](https://github.com/hyper-type) at GitHub:
 [GlyphsApp Documentation Repo](https://github.com/hyper-type/alfred-glyphs-docu)
