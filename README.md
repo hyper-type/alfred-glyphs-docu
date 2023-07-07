@@ -1,6 +1,6 @@
 # GlyphsApp Documentation for Alfred
 
-[![made with heart by Mark Frömberg & Hypertype](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-mark%20frömberg-F9DE64.svg?style=flat)](https://github.com/Mark2Mark)
+[![made with heart by Mark Frömberg & Hypertype](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-mark%20frömberg%20and%20Hypertype%20F9DE64.svg?style=flat)](https://github.com/Mark2Mark)
 
 Trigger the GlyphsApp Documentation with `gd` followed by a space. It will fetch all items from the documentation site. Continue typing your search to filter the results. Selecting an item opens the documentation in your default browser with that item selected for further reading.
 
