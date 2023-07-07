@@ -8,11 +8,11 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>62690F34-12F2-4A3E-B7D9-B381D54C8E56</key>
+		<key>D042FF73-35F0-47F4-B55B-A4AF431D56C5</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>9147FFB0-296A-441E-9454-6A1842175FE8</string>
+				<string>4CB2A985-08C1-48D8-8FD2-68D0D1D5B850</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -25,34 +25,13 @@
 	<key>createdby</key>
 	<string>Mark Frömberg &amp; Hypertype</string>
 	<key>description</key>
-	<string>See all documented items and open them in the browser on selection</string>
+	<string>See all documented items from the Glyphs API and open them in the browser on selection</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>GlyphsApp Documentation</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>9147FFB0-296A-441E-9454-6A1842175FE8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -67,7 +46,7 @@
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
-				<integer>68</integer>
+				<integer>102</integer>
 				<key>keyword</key>
 				<string>gd</string>
 				<key>queuedelaycustom</key>
@@ -98,13 +77,36 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>62690F34-12F2-4A3E-B7D9-B381D54C8E56</string>
+			<string>D042FF73-35F0-47F4-B55B-A4AF431D56C5</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>4CB2A985-08C1-48D8-8FD2-68D0D1D5B850</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string># GlyphsApp Documentation for Alfred
+
+made with 🤍 by Mark Frömberg &amp; Hypertype
 
 Trigger the GlyphsApp Documentation with `gd` followed by a space. It will fetch all items from the documentation site. Continue typing your search to filter the results. Selecting an item opens the documentation in your default browser with that item selected for further reading.
 
@@ -115,6 +117,9 @@ Trigger the GlyphsApp Documentation with `gd` followed by a space. It will fetch
 - Python 3
 - Connection to the internet
 
+# Install
+
+Download the latest release "GlyphsApp.Documentation.alfredworkflow" from [here](https://github.com/hyper-type/alfred-glyphs-docu/releases/) and double click to install in Alfred.
 
 # Adjustments
 
@@ -122,23 +127,27 @@ If you don’t use `zsh`, change the "Language" in the Script Filter to `bin/bas
 
 # Improvements, Bugs, Features
 
-Report them to @Mark2Mark or @hyper-type at GitHub:
+Report them to [@Mark2Mark](https://github.com/Mark2Mark) or [@hyper-type](https://github.com/hyper-type) at GitHub:
 [GlyphsApp Documentation Repo](https://github.com/hyper-type/alfred-glyphs-docu)</string>
 	<key>uidata</key>
 	<dict>
-		<key>62690F34-12F2-4A3E-B7D9-B381D54C8E56</key>
+		<key>4CB2A985-08C1-48D8-8FD2-68D0D1D5B850</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
 			<key>xpos</key>
-			<real>65</real>
+			<real>365</real>
 			<key>ypos</key>
-			<real>160</real>
+			<real>155</real>
 		</dict>
-		<key>9147FFB0-296A-441E-9454-6A1842175FE8</key>
+		<key>D042FF73-35F0-47F4-B55B-A4AF431D56C5</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
 			<key>xpos</key>
-			<real>335</real>
+			<real>190</real>
 			<key>ypos</key>
-			<real>160</real>
+			<real>155</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -146,7 +155,7 @@ Report them to @Mark2Mark or @hyper-type at GitHub:
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.1.0</string>
+	<string>0.1.1</string>
 	<key>webaddress</key>
 	<string>https://hypertype.xyz</string>
 </dict>
