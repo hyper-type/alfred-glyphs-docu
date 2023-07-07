@@ -4,6 +4,8 @@
 
 Trigger the GlyphsApp Documentation with `gd` followed by a space. It will fetch all items from the documentation site. Continue typing your search to filter the results. Selecting an item opens the documentation in your default browser with that item selected for further reading.
 
+Especially usefull when you develop a python script or plugin for Glyphs and want to quickly know which objects and methods exist in its API.
+
 ![Alt Text](.images/alfred-glyphs-docu-1.gif)
 
 
@@ -16,6 +18,11 @@ Trigger the GlyphsApp Documentation with `gd` followed by a space. It will fetch
 # Install
 
 Download the latest release "GlyphsApp.Documentation.alfredworkflow" from [here](https://github.com/hyper-type/alfred-glyphs-docu/releases/) and double click to install in Alfred.
+
+# TODO
+
+- [ ] add Glyphs Core
+- [ ] add Glyphs SDK
 
 # Adjustments
 
