@@ -19,7 +19,7 @@ Especially usefull when you develop a python script or plugin for Glyphs and wan
 
 Download the latest release "GlyphsApp.Documentation.alfredworkflow" from [here](https://github.com/hyper-type/alfred-glyphs-docu/releases/) and double click to install in Alfred.
 
-# TODO
+# Todo
 
 - [ ] add Glyphs Core
 - [ ] add Glyphs SDK
