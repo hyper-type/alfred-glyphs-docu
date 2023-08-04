@@ -11,7 +11,7 @@ Especially usefull when you develop a python script or plugin for Glyphs and wan
 
 # Requirements
 
-- Alfred (tested with version 5)
+- Alfred with Powerpack (tested with version 5)
 - Python 3
 - Connection to the internet
 
